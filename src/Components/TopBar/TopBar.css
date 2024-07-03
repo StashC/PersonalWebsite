@@ -1,0 +1,32 @@
+@import url("../../App.css");
+
+.TopBar {
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-background-color);
+  height: 5%;
+  max-height: 30px;
+  padding: 0.5rem;
+}
+
+.TopBarLinkContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.TopBarLink {
+  margin: 10px;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.TopBarLink:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+.TopBarName {
+  color: var(--primary-color);
+}

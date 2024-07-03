@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #47d653;
+  --secondary-color: #398242;
+  --background-color: #2b2d31;
+  --dark-background-color: #232428;
+  --text-color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .BannerImageContainer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.BannerImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+} */
