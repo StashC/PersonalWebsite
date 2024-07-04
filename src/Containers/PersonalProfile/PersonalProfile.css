@@ -14,7 +14,6 @@
   justify-content: left;
   text-align: left;
   width: 60%;
-  height: 100%;
   padding: 10px 25px;
   margin-right: 5%;
 }
@@ -31,8 +30,8 @@
 .ImageContainer {
   overflow: hidden;
   padding: 15px;
-  width: 30vw;
-  height: 30vw;
+  width: 28vw;
+  height: 28vw;
 }
 
 .ImageContainer img {
@@ -45,11 +44,18 @@
   font-size: 2vw;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .LeftColumn p {
-  font-size: 1vw;
+  font-size: 1.25vw;
+}
+
+.SocialIconContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: 2%;
 }
 
 /* adapted from: https://css-tricks.com/snippets/css/typewriter-effect/ */
@@ -62,7 +68,8 @@
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing 3s steps(25, end), blink-caret 0.75s step-end infinite;
   width: 100%;
-  font-size: 3.2vw;
+  font-size: 3.5vw;
+  font-weight: 700;
 }
 
 /* The typing effect */

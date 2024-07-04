@@ -1,0 +1,39 @@
+.ProjectCard {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  background-color: var(--dark-background-color);
+  overflow: hidden;
+  text-align: left;
+}
+
+.ProjectThumbnailContainer {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  /* border-bottom: 2px solid var(--secondary-color); */
+}
+
+.ProjectInfoContainer {
+  padding: 0 0.5rem;
+}
+
+.ProjectInfoContainer h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.TechnologiesContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+}
+
+.TechnologyTag {
+  height: fit-content;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  font-weight: 800;
+  color: var(--secondary-color);
+}

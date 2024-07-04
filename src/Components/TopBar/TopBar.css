@@ -6,7 +6,8 @@
   background-color: var(--dark-background-color);
   height: 5%;
   max-height: 30px;
-  padding: 0.5rem;
+  padding: 1rem;
+  border-bottom: 2px solid var(--background-color);
 }
 
 .TopBarLinkContainer {

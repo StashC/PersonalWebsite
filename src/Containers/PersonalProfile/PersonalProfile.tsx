@@ -1,5 +1,6 @@
 import React from "react";
 import "./PersonalProfile.css";
+import IconButton from "../../Components/IconButton.tsx";
 
 const PersonalProfile = ({}) => {
   return (
@@ -16,6 +17,18 @@ const PersonalProfile = ({}) => {
           waloer lorem ipsum dolor est tu em ist waloer lorem ipsum dolor est tu
           em ist waloer
         </p>
+        <div className="SocialIconContainer">
+          <IconButton network="github" url="https://github.com/StashC" />
+          <IconButton
+            network="linkedin"
+            url="https://www.linkedin.com/in/stashcurrie/"
+          />
+          <IconButton
+            network="youtube"
+            url="https://www.youtube.com/@StashCurrie"
+          />
+          <IconButton network="email" url="mailto:stashubc@student.ubc.ca" />
+        </div>
       </div>
       <div className="RightColumn">
         <div className="ImageContainer">
