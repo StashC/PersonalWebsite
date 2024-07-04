@@ -1,3 +1,57 @@
+.PersonalProfileContainer {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-background-color);
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px;
+}
+
+.LeftColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  width: 60%;
+  height: 100%;
+  padding: 10px 25px;
+  margin-right: 5%;
+}
+
+.RightColumn {
+  width: 40%;
+  height: 100%;
+}
+
+.NameContainer {
+  width: fit-content;
+}
+
+.ImageContainer {
+  overflow: hidden;
+  padding: 15px;
+  width: 30vw;
+  height: 30vw;
+}
+
+.ImageContainer img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.LeftColumn h3 {
+  font-size: 2vw;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.LeftColumn p {
+  font-size: 1vw;
+}
+
 /* adapted from: https://css-tricks.com/snippets/css/typewriter-effect/ */
 
 .NameHeaderText {
@@ -6,9 +60,9 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3s steps(25, end), blink-caret 0.75s step-end infinite;
   width: 100%;
-  font-size: 36px;
+  font-size: 3.2vw;
 }
 
 /* The typing effect */

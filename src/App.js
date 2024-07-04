@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <TopBar />
       <PersonalProfile />
-      <header className="App-header">hi</header>
     </div>
   );
 }
