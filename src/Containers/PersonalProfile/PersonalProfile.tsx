@@ -4,19 +4,26 @@ import IconButton from "../../Components/IconButton.tsx";
 
 const PersonalProfile = ({}) => {
   return (
-    <div className="PersonalProfileContainer">
+    <div id="PersonalProfile" className="PersonalProfileContainer">
       <div className="LeftColumn">
         <div className="NameContainer">
           <h2 className="NameHeaderText">Hi, I'm Stash Currie</h2>
         </div>
         <h3>Software Developer</h3>
         <p>
-          Aspiring Computer Science student @ UBC. Interested in Software
-          Development, AI and more! Feel free to connect with me on LinkedIn!
-          lorem ipsum dolor est tu em ist waloer lorem ipsum dolor est tu em ist
-          waloer lorem ipsum dolor est tu em ist waloer lorem ipsum dolor est tu
-          em ist waloer
+          Aspiring Computer Science student studying at UBC. Interested in
+          Software Development, AI and more! I love cooking, am always in the
+          gym, and enjoy playing video games with friends. Feel free to connect
+          with me on LinkedIn, or checkout my links below!
         </p>
+        <a
+          className="ResumeLink"
+          aria-label="Download Resume"
+          href="/StashResume2024S.pdf"
+          download
+        >
+          {"> View Resume"}
+        </a>
         <div className="SocialIconContainer">
           <IconButton network="github" url="https://github.com/StashC" />
           <IconButton

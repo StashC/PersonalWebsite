@@ -20,6 +20,8 @@ const IconButton = ({ network, url }: IIconProps) => {
         url={url}
         fgColor={textColor}
         bgColor={secondaryColor}
+        target="_blank"
+        rel="noopener noreferrer"
       />
     </div>
   );

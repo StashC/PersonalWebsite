@@ -1,10 +1,30 @@
 .ProjectCard {
   width: 100%;
-  height: 350px;
+  height: 300px;
   border-radius: 10px;
   background-color: var(--dark-background-color);
   overflow: hidden;
   text-align: left;
+}
+
+.ProjectCardSelected {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-color: var(--dark-background-color);
+  overflow: hidden;
+  text-align: left;
+  outline: solid 5px var(--secondary-color);
+}
+
+.ProjectCard p {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.ProjectCardSelected p {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .ProjectThumbnailContainer {

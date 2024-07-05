@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <TopBar />
-      <PersonalProfile />
+      <PersonalProfile id="PersonalProfile" />
       <ProjectGallery />
     </div>
   );

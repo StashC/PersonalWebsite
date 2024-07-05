@@ -1,15 +1,28 @@
 import React from "react";
 import "./TopBar.css";
+import { scrollTo } from "../../helper.ts";
 
 const TopBar = ({}) => {
   return (
     <div className="TopBar">
       <h2 className="TopBarName">Stash Currie</h2>
       <div className="TopBarLinkContainer">
-        <a className="TopBarLink">Home</a>
-        <a className="TopBarLink">About</a>
-        <a className="TopBarLink">Projects</a>
-        <a className="TopBarLink">Contact</a>
+        <div className="TopBarLink" onClick={() => scrollTo("Home")}>
+          Home
+        </div>
+        <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
+          About
+        </a>
+        <a className="TopBarLink" onClick={() => scrollTo("ProjectGallery")}>
+          Projects
+        </a>
+        <a
+          aria-label="Email"
+          className="TopBarLink"
+          href="mailto:stashubc@student.ubc.ca"
+        >
+          Contact
+        </a>
       </div>
     </div>
   );

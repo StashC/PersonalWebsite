@@ -1,46 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectCard from "./ProjectCard/ProjectCard.tsx";
 
 import "./ProjectGallery.css";
 import "../../App.css";
+import { IProjectData, ProjectData } from "./ProjectGalleryHelper.ts";
+import ProjectShowcase from "./ProjectShowcase/ProjectShowcase.tsx";
 
 const ProjectGallery = ({}) => {
+  const [selectedProject, setSelectedProject] = useState<IProjectData>(
+    ProjectData[0]
+  );
+
   return (
-    <div className="ProjectGallery">
+    <div id="ProjectGallery" className="ProjectGallery">
       <h2 className="MainSectionHeader"> Projects</h2>
 
       <div className="ProjectCardContainer">
-        <ProjectCard
-          title={"ItinerAI"}
-          technologies={["Azure", "Machine Learning", "Python"]}
-          description={
-            "A cool machine learning project using LangChain.  Created with Friends"
-          }
-          thumbnail={
-            "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg"
-          }
-        />
-        <ProjectCard
-          title={"ItinerAI"}
-          technologies={["Azure", "Machine Learning", "Python"]}
-          description={
-            "A cool machine learning project using LangChain.  Created with Friends"
-          }
-          thumbnail={
-            "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg"
-          }
-        />
-        <ProjectCard
-          title={"ItinerAI"}
-          technologies={["Azure", "Machine Learning", "Python"]}
-          description={
-            "A cool machine learning project using LangChain.  Created with Friends"
-          }
-          thumbnail={
-            "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg"
-          }
-        />
+        {ProjectData.map((data) => {
+          return (
+            <ProjectCard
+              data={data}
+              selected={selectedProject.id == data.id}
+              setSelectedProject={setSelectedProject}
+            />
+          );
+        })}
       </div>
+      {selectedProject && <ProjectShowcase data={selectedProject} />}
     </div>
   );
 };
