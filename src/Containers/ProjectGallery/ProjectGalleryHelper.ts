@@ -57,8 +57,7 @@ export const ProjectData: IProjectData[] = [
       "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users",
     longDescription:
       "A Chrome Extension created to combat Workday's poor UI/UX, attracting over 5000 users and a very active discord community!  Adds a handly calendar on the side of Workday.  Very useful for registering courses as there is now easy way to see time conflicts in Workday.   Open source project maintained by a small group of developers.  The extension is created using REACT and Typescript and CSS.  Data from RateMyProf, and UBC Grades, two very popular websites for students to judge whether or not to take a course, has been integrated into the extension using APIs, greatly improving the course registration efficiency of students. ",
-    thumbnail:
-      "https://i9.ytimg.com/vi_webp/OhG_MD-7fWA/maxresdefault.webp?v=665e92dc&sqp=COyWnbQG&rs=AOn4CLC9MO6FYXt_2gPU3sQwvSIIjzK25Q",
+    thumbnail: "https://i.imgur.com/HO4w0L2.png",
   },
   {
     id: 2,
