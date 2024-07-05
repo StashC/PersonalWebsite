@@ -2,7 +2,7 @@ import React from "react";
 import "./TopBar.css";
 import { scrollTo } from "../../helper.ts";
 
-const TopBar = ({}) => {
+const TopBar = () => {
   return (
     <div className="TopBar">
       <h2 className="TopBarName">Stash Currie</h2>

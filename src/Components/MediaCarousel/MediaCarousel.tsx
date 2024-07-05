@@ -17,7 +17,7 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
   const handleLeftButton = () => {
     console.log("click left");
 
-    if (mediaIndex != 0) {
+    if (mediaIndex !== 0) {
       setMediaIndex(mediaIndex - 1);
     } else {
       setMediaIndex(mediaList.length - 1);
@@ -33,21 +33,24 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
     }
   };
 
-  useEffect(() => {
-    console.log(mediaIndex);
-    console.log(mediaList.length);
-  }, [mediaIndex]);
-
   return (
     <div className="MediaCarousel">
       <div className="MediaContainer">
         <div className="MediaButton" onClick={() => handleLeftButton()}>
           {"<"}
         </div>
-        {mediaList[mediaIndex].type == "VIDEO" ? (
-          <iframe className="VideoPlayer" src={mediaList[mediaIndex].url} />
+        {mediaList[mediaIndex].type === "VIDEO" ? (
+          <iframe
+            title="video"
+            className="VideoPlayer"
+            src={mediaList[mediaIndex].url}
+          />
         ) : (
-          <img className="ImageViewer" src={mediaList[mediaIndex].url} />
+          <img
+            alt="Picture of project"
+            className="ImageViewer"
+            src={mediaList[mediaIndex].url}
+          />
         )}
         <div className="MediaButton" onClick={() => handleRightButton()}>
           {">"}
