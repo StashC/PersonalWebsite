@@ -9,6 +9,12 @@ on:
   pull_request:
     branches: ["main"]
 
+  # set permissions for token
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
