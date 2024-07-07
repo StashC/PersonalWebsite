@@ -13,10 +13,18 @@ export interface IMediaCarouselProps {
 
 const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
   const [mediaIndex, setMediaIndex] = useState<number>(0);
+  const [currentMedia, setCurrentMedia] = useState<IMedia>(mediaList[0]);
+
+  useEffect(() => {
+    setMediaIndex(0);
+    setCurrentMedia(mediaList[0]);
+  }, [mediaList]);
+
+  useEffect(() => {
+    setCurrentMedia(mediaList[mediaIndex]);
+  }, [mediaIndex]);
 
   const handleLeftButton = () => {
-    console.log("click left");
-
     if (mediaIndex !== 0) {
       setMediaIndex(mediaIndex - 1);
     } else {
@@ -25,7 +33,6 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
   };
 
   const handleRightButton = () => {
-    console.log("click right");
     if (mediaIndex < mediaList.length - 1) {
       setMediaIndex(mediaIndex + 1);
     } else {
@@ -39,24 +46,24 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
         <div className="MediaButton" onClick={() => handleLeftButton()}>
           {"<"}
         </div>
-        {mediaList[mediaIndex].type === "VIDEO" ? (
+        {currentMedia && currentMedia.type === "VIDEO" ? (
           <iframe
             title="video"
             className="VideoPlayer"
-            src={mediaList[mediaIndex].url}
+            src={currentMedia.url}
           />
         ) : (
           <img
             alt="Picture of project"
             className="ImageViewer"
-            src={mediaList[mediaIndex].url}
+            src={currentMedia.url}
           />
         )}
         <div className="MediaButton" onClick={() => handleRightButton()}>
           {">"}
         </div>
       </div>
-      <p>{mediaList[mediaIndex].caption ?? ""}</p>
+      <p>{currentMedia.caption ?? ""}</p>
     </div>
   );
 };
