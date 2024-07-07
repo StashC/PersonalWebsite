@@ -7,7 +7,7 @@ const TopBar = () => {
     <div className="TopBar">
       <h2 className="TopBarName">Stash Currie</h2>
       <div className="TopBarLinkContainer">
-        <div className="TopBarLink" onClick={() => scrollTo("Home")}>
+        <div className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
           Home
         </div>
         <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
@@ -19,7 +19,7 @@ const TopBar = () => {
         <a
           aria-label="Email"
           className="TopBarLink"
-          href="mailto:stashubc@student.ubc.ca"
+          onClick={() => scrollTo("ContactCard")}
         >
           Contact
         </a>
