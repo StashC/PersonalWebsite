@@ -2,7 +2,7 @@
   "name": "stash-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://http://stashcurrie.com",
+  "homepage": "http://www.stashcurrie.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
