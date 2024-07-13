@@ -59,6 +59,7 @@
   font-size: 1.5vw;
   margin-top: auto;
   margin-bottom: 10px;
+  width: fit-content;
 }
 
 .SocialIconContainer {

@@ -14,8 +14,8 @@
 
 .MediaButton {
   background-color: var(--primary-color);
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   font-size: 24px;
 }
 
@@ -40,5 +40,9 @@
     height: 100%;
     width: 100%;
     min-width: 300px;
+  }
+
+  .MediaButton {
+    width: 60px;
   }
 }
