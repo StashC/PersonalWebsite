@@ -1,6 +1,7 @@
 .ShowcaseContainer {
-  width: 65%;
-  height: 80vh;
+  width: 80%;
+  height: 85vh;
+  min-height: 750px;
   background-color: var(--dark-background-color);
   margin-top: 25px;
   margin-left: auto;
@@ -8,12 +9,18 @@
   padding: 0.25rem 3rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .ShowcaseContainer {
+    width: 85vw;
+  }
+}
+
 .CarouselContainer {
   padding: 1%;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
   height: 50%;
+  margin-top: 5px;
 }
 
 .ProjectShowcaseInfoContainer {

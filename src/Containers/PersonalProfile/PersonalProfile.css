@@ -82,6 +82,19 @@
   font-weight: 700;
 }
 
+@media only screen and (max-width: 1024px) {
+  .LeftColumn h3 {
+    font-size: 1.3rem;
+  }
+  .ResumeLink {
+    font-size: 1.2rem;
+  }
+
+  .LeftColumn p {
+    font-size: 1rem;
+  }
+}
+
 /* The typing effect */
 @keyframes typing {
   from {

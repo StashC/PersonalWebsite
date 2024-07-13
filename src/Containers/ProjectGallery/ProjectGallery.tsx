@@ -14,7 +14,6 @@ const ProjectGallery = ({}) => {
   return (
     <div id="ProjectGallery" className="ProjectGallery">
       <h2 className="MainSectionHeader"> Projects</h2>
-
       <div className="ProjectCardContainer">
         {ProjectData.map((data) => {
           return (
