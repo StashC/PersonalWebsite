@@ -34,3 +34,11 @@
   height: 100%;
   width: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+  .MediaCarousel {
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+  }
+}

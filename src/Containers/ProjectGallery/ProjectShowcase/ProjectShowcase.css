@@ -12,6 +12,7 @@
 @media only screen and (max-width: 1024px) {
   .ShowcaseContainer {
     width: 85vw;
+    padding: 10px 10px;
   }
 }
 
@@ -21,6 +22,7 @@
   margin-right: auto;
   height: 50%;
   margin-top: 5px;
+  max-width: 700px;
 }
 
 .ProjectShowcaseInfoContainer {
@@ -57,4 +59,8 @@
 .ShowcaseRowItem {
   margin-left: 12px;
   color: var(--secondary-color);
+}
+
+.ProjectTitle {
+  font-size: 1.6rem;
 }
