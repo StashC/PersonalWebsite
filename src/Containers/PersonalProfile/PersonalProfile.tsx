@@ -41,6 +41,7 @@ const PersonalProfile = ({}) => {
         <div className="ImageContainer">
           <img src="https://i.imgur.com/v9kjIRb.png" />
         </div>
+        <h3 className="LocationText"> 𖡡 Vancouver, Canada</h3>
       </div>
     </div>
   );

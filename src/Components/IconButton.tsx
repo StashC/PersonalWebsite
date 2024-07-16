@@ -15,7 +15,7 @@ const IconButton = ({ network, url }: IIconProps) => {
   return (
     <div style={{ marginRight: "15px" }}>
       <SocialIcon
-        style={{ height: "3.2rem", width: "3.2rem" }}
+        style={{ height: "4rem", width: "4rem" }}
         network={network}
         url={url}
         fgColor={textColor}

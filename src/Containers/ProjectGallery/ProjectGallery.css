@@ -1,5 +1,5 @@
 .ProjectGallery {
-  width: 85%;
+  width: 90vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -7,8 +7,9 @@
 .ProjectCardContainer {
   display: grid;
   width: 100%;
-  grid-template-columns: 25vw 25vw 25vw;
-  grid-column-gap: 2.5vw;
+  grid-template-columns: 27vw 27vw 27vw;
+  grid-template-rows: fit-content;
+  grid-column-gap: 2vw;
   grid-row-gap: 3vh;
   margin-left: 3vw;
   margin-top: 50px;

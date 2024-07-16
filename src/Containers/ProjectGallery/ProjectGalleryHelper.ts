@@ -92,116 +92,28 @@ export const ProjectData: IProjectData[] = [
     thumbnail:
       "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
   },
-  // {
-  //   id: 3,
-  //   mediaList: [
-  //     {
-  //       type: "VIDEO",
-  //       url: "https://www.youtube.com/embed/MIYOK05I0uc?si=WPDKa8cSp830u83M",
-  //       caption: "YouTube demo of ItinerAI",
-  //     },
-  //     {
-  //       type: "IMAGE",
-  //       url: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  //       caption: "Picture of the website",
-  //     },
-  //   ],
-  //   links: [
-  //     {
-  //       displayText: "ItinerAI Website",
-  //       url: "https://thankful-tree-0ba95a70f.5.azurestaticapps.net/",
-  //     },
-  //   ],
-  //   title: "ItinerAI - Microsoft AI Hackathon",
-  //   technologies: ["Azure", "Machine Learning", "Python"],
-  //   shortDescription:
-  //     "A cool machine learning project using LangChain.  Created with Friends",
-  //   longDescription: "asds",
-  //   thumbnail:
-  //     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  // },
-  // {
-  //   id: 4,
-  //   mediaList: [
-  //     {
-  //       type: "VIDEO",
-  //       url: "https://www.youtube.com/embed/MIYOK05I0uc?si=WPDKa8cSp830u83M",
-  //       caption: "YouTube demo of ItinerAI",
-  //     },
-  //     {
-  //       type: "IMAGE",
-  //       url: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  //       caption: "Picture of the website",
-  //     },
-  //   ],
-  //   links: [
-  //     {
-  //       displayText: "ItinerAI Website",
-  //       url: "https://thankful-tree-0ba95a70f.5.azurestaticapps.net/",
-  //     },
-  //   ],
-  //   title: "ItinerAI - Microsoft AI Hackathon",
-  //   technologies: ["Azure", "Machine Learning", "Python"],
-  //   shortDescription:
-  //     "A cool machine learning project using LangChain.  Created with Friends",
-  //   longDescription: "asds",
-  //   thumbnail:
-  //     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  // },
-  // {
-  //   id: 5,
-  //   mediaList: [
-  //     {
-  //       type: "VIDEO",
-  //       url: "https://www.youtube.com/embed/MIYOK05I0uc?si=WPDKa8cSp830u83M",
-  //       caption: "YouTube demo of ItinerAI",
-  //     },
-  //     {
-  //       type: "IMAGE",
-  //       url: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  //       caption: "Picture of the website",
-  //     },
-  //   ],
-  //   links: [
-  //     {
-  //       displayText: "ItinerAI Website",
-  //       url: "https://thankful-tree-0ba95a70f.5.azurestaticapps.net/",
-  //     },
-  //   ],
-  //   title: "ItinerAI - Microsoft AI Hackathon",
-  //   technologies: ["Azure", "Machine Learning", "Python"],
-  //   shortDescription:
-  //     "A cool machine learning project using LangChain.  Created with Friends",
-  //   longDescription: "asds",
-  //   thumbnail:
-  //     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  // },
-  // {
-  //   id: 6,
-  //   mediaList: [
-  //     {
-  //       type: "VIDEO",
-  //       url: "https://www.youtube.com/embed/MIYOK05I0uc?si=WPDKa8cSp830u83M",
-  //       caption: "YouTube demo of ItinerAI",
-  //     },
-  //     {
-  //       type: "IMAGE",
-  //       url: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  //       caption: "Picture of the website",
-  //     },
-  //   ],
-  //   links: [
-  //     {
-  //       displayText: "ItinerAI Website",
-  //       url: "https://thankful-tree-0ba95a70f.5.azurestaticapps.net/",
-  //     },
-  //   ],
-  //   title: "ItinerAI - Microsoft AI Hackathon",
-  //   technologies: ["Azure", "Machine Learning", "Python"],
-  //   shortDescription:
-  //     "A cool machine learning project using LangChain.  Created with Friends",
-  //   longDescription: "asds",
-  //   thumbnail:
-  //     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
-  // },
+  {
+    id: 3,
+    mediaList: [
+      {
+        type: "IMAGE",
+        url: "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
+        caption: "Picture of the game",
+      },
+    ],
+    links: [
+      {
+        displayText: "Github",
+        url: "https://github.com/StashC/Space-Survival-Game",
+      },
+    ],
+    title: "Space Survival Game",
+    technologies: ["Unity", "C#", "Game Dev"],
+    shortDescription:
+      "A 2D video game made from scratch in Unity using C# for my grade 10 personal project winning first place.",
+    longDescription:
+      "A game I made in Grade 10 for my high school passion project, recieving first place in my school's project fair. I spent 5 months creating a videogame and documenting the process for my IB Middle Years Program personal project. This game was inspired by Brackey's 2d Game Development series on YouTube.  All of the game assets were created using Adobe PhotoShop",
+    thumbnail:
+      "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
+  },
 ];
