@@ -51,6 +51,7 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
             title="video"
             className="VideoPlayer"
             src={currentMedia.url}
+            allowFullScreen={true}
           />
         ) : (
           <img
