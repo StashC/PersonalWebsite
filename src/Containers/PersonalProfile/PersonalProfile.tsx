@@ -11,10 +11,7 @@ const PersonalProfile = ({}) => {
         </div>
         <h3>Software Developer</h3>
         <p>
-          Aspiring Computer Science student studying at UBC. Interested in
-          Software Development, AI and more! I love cooking, am always in the
-          gym, and enjoy playing video games with friends. Feel free to connect
-          with me on LinkedIn, or checkout my links below!
+        Aspiring Computer Science student studying at UBC. Fullstack Web Developer with 2 years of experience in the industry, specializing in React, Typescript, C#, Dotnet, and SQL. I love cooking, working out, and creating things with code! Feel free to checkout some of my projects, or reach out to me through the links below!
         </p>
         <a
           className="ResumeLink"
@@ -41,7 +38,7 @@ const PersonalProfile = ({}) => {
         <div className="ImageContainer">
           <img src="https://i.imgur.com/v9kjIRb.png" />
         </div>
-        <h3 className="LocationText"> 𖡡 Vancouver, Canada</h3>
+        <h3 className="LocationText"> ⚲ Vancouver, Canada</h3>
       </div>
     </div>
   );
