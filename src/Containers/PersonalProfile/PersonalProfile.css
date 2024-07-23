@@ -5,7 +5,6 @@
   background-color: var(--dark-background-color);
   display: flex;
   flex-direction: row;
-  padding: 5px 20px;
   margin-top: 100px;
 }
 
@@ -15,7 +14,7 @@
   justify-content: left;
   text-align: left;
   width: 60%;
-  padding: 10px 25px;
+  padding: 0.6rem 0.6rem;
 }
 
 .RightColumn {
@@ -92,9 +91,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .PersonalProfileContainer {
-    width: 90vw;
-  }
   .LeftColumn h3 {
     font-size: 1.3rem;
   }
@@ -111,6 +107,23 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .PersonalProfileContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .PersonalProfileContainer {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .PersonalProfileContainer {
+    padding: 1.5rem;
+  }
+}
 /* The typing effect */
 @keyframes typing {
   from {

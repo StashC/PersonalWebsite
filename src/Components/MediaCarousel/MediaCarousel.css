@@ -1,7 +1,6 @@
 .MediaCarousel {
   height: 100%;
   width: 100%;
-  min-width: 500px;
 }
 
 .MediaContainer {
@@ -36,13 +35,23 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .MediaCarousel {
+  .ProjectShowcase .MediaCarousel {
     height: 100%;
     width: 100%;
     min-width: 300px;
   }
 
   .MediaButton {
-    width: 60px;
+    width: 30px;
+  }
+
+  .VideoPlayer {
+    height: auto;
+    width: calc(100% - 50px);
+  }
+
+  .ImageViewer {
+    height: auto;
+    width: calc(100% - 50px);
   }
 }

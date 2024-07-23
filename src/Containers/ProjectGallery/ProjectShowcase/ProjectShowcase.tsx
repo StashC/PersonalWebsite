@@ -19,7 +19,7 @@ const ProjectShowcase = ({ data }: IShowcaseProps) => {
         <p>{data.longDescription}</p>
         <div className="ShowcaseFooter">
           <div className="ShowcaseRowContainer">
-            <h4>Technologies & Skills Used: </h4>
+            <h4>Technologies & Skills: </h4>
             {data.technologies.map((tech: string) => {
               return <div className="ShowcaseRowItem">{tech}</div>;
             })}
