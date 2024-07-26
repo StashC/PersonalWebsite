@@ -2,7 +2,7 @@
 
 .TopBar {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--dark-background-color);
   height: 5%;
@@ -12,7 +12,6 @@
   position: fixed;
   top: 0;
   width: 100vw;
-  overflow: hidden;
   z-index: 999;
 }
 
@@ -20,7 +19,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: auto;
   margin-right: 2rem;
 }
 
@@ -39,4 +37,47 @@
 
 .TopBarName {
   color: var(--primary-color);
+}
+
+.NavToggle {
+  display: none;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .TopBarLinkContainer {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--background-color);
+  }
+  .TopBarName {
+    font-size: 32px;
+  }
+
+  .TopBarLinkContainer.Open {
+    display: flex;
+    padding: 0 2rem;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    margin-top: 320px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .TopBarLinkContainer a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .TopBarLinkContainer a {
+    font-size: 32px;
+  }
+
+  .NavToggle {
+    display: block;
+    margin-right: 3rem;
+  }
 }

@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TopBar.css";
 import { scrollTo } from "../../helper.ts";
 
 const TopBar = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const toggleOpen = () => {
+    setIsOpen((cur) => !cur);
+  };
+
   return (
     <div className="TopBar">
       <h2 className="TopBarName">Stash Currie</h2>
-      <div className="TopBarLinkContainer">
-        <div className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
+      <div className={`TopBarLinkContainer ${isOpen ? "Open" : ""}`}>
+        <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
           Home
-        </div>
+        </a>
         <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
           About
         </a>
@@ -23,6 +29,9 @@ const TopBar = () => {
         >
           Contact
         </a>
+      </div>
+      <div className="NavToggle" onClick={toggleOpen}>
+        &#9776;
       </div>
     </div>
   );
