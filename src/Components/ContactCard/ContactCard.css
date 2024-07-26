@@ -1,6 +1,6 @@
 .ContactCardContainer {
   width: 50vw;
-  min-width: 600px;
+  min-width: fit-content;
   height: 40%;
   background-color: var(--dark-background-color);
   margin-left: auto;

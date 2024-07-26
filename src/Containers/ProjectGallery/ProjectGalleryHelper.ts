@@ -57,7 +57,7 @@ export const ProjectData: IProjectData[] = [
       "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users",
     longDescription:
       "A Chrome Extension created to combat Workday's poor UI/UX, attracting over 5000 users and a very active discord community!  Adds a handly calendar on the side of Workday.  Very useful for registering courses as there is now easy way to see time conflicts in Workday.   Open source project maintained by a small group of developers.  The extension is created using REACT and Typescript and CSS.  Data from RateMyProf, and UBC Grades, two very popular websites for students to judge whether or not to take a course, has been integrated into the extension using APIs, greatly improving the course registration efficiency of students. ",
-    thumbnail: "https://i.imgur.com/HO4w0L2.png",
+    thumbnail: "https://i.imgur.com/nsyuHtF.png",
   },
   {
     id: 2,
@@ -83,14 +83,13 @@ export const ProjectData: IProjectData[] = [
         url: "https://devpost.com/software/itinerai",
       },
     ],
-    title: "ItinerAI - Microsoft AI Hackathon",
+    title: "ItinerAI - Microsoft AI Hackathon (Top 10)",
     technologies: ["Azure", "Machine Learning", "Python"],
     shortDescription:
-      "A travel app with integrated custom chatbot to create itineraries.  Made with friends for a Microsoft Hackathon",
+      "A travel app with integrated custom chatbot to create itineraries.  Made with friends for a Microsoft Hackathon (Top 10 Project)",
     longDescription:
       "ItinerAI is a web app designed to make trip planning easier.  We created a custom chabot using Azure's Open AI which can query an Azure Cosmos DB using vector searches to find related locations.  Our app provides a seamless experience by allowing you to effortlessly view your itinerary items on an interactive map, complete with directions. With the help of our intelligent chatbot, you can receive personalized location suggestions and easily add new destinations to your itinerary. Additionally, you have the flexibility to manually rearrange and edit locations, ensuring your travel plans are perfectly tailored to your preferences. This integration makes your journey both enjoyable and efficient, giving you full control over your itinerary with ease.  We used REACT with typescript ad node JS as backend. The frontend is deployed using an Azure Static WebApp, which hosts this node JS server as an Azure Function App. The node server talks to our Container App, which hosts a LangChain agent connected to our Azure Cosmos Mongo DB and the AzureOpenAI agent. The node server is able to take all the information back, update the directions using the google maps API, and then serve the data to the front end.",
-    thumbnail:
-      "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/933/555/datas/gallery.jpg",
+    thumbnail: "https://i.imgur.com/xhePixJ.png",
   },
   {
     id: 3,
@@ -113,7 +112,6 @@ export const ProjectData: IProjectData[] = [
       "A 2D video game made from scratch in Unity using C# for my grade 10 personal project winning first place.",
     longDescription:
       "A game I made in Grade 10 for my high school passion project, recieving first place in my school's project fair. I spent 5 months creating a videogame and documenting the process for my IB Middle Years Program personal project. This game was inspired by Brackey's 2d Game Development series on YouTube.  All of the game assets were created using Adobe PhotoShop",
-    thumbnail:
-      "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
+    thumbnail: "https://i.imgur.com/R9ZLXPV.png",
   },
 ];

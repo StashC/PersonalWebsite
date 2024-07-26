@@ -1,22 +1,29 @@
 .ProjectCard {
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 10px;
   background-color: var(--dark-background-color);
   overflow: hidden;
   text-align: left;
   padding-bottom: 5px;
-  cursor: "pointer";
 }
 
 .ProjectCardSelected {
   width: 100%;
-  height: 100%;
+  height: 90%;
   border-radius: 10px;
   background-color: var(--dark-background-color);
   overflow: hidden;
   text-align: left;
   outline: solid 5px var(--secondary-color);
+}
+
+.ProjectCard:hover {
+  cursor: pointer;
+}
+
+.ProjectCardSelected:hover {
+  cursor: pointer;
 }
 
 .ProjectCard p {
@@ -32,13 +39,20 @@
 .ProjectThumbnailContainer {
   width: 100%;
   height: 50%;
-  max-height: 200px;
   overflow: hidden;
 }
 
+.ProjectThumbnailContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .ProjectInfoContainer {
-  height: 50%;
+  height: 45%;
   padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .ProjectInfoContainer h2 {
