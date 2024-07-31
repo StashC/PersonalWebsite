@@ -107,7 +107,7 @@ export const ProjectData: IProjectData[] = [
       },
       {
         type: "IMAGE",
-        url: "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
+        url: "https://user-images.githubusercontent.com/89222842/169706487-86e326fb-19f1-40ff-8ec1-11d62836486a.png",
         caption: "Animated main menu screen",
       },
     ],
