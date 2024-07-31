@@ -100,6 +100,16 @@ export const ProjectData: IProjectData[] = [
         url: "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
         caption: "Picture of the game",
       },
+      {
+        type: "IMAGE",
+        url: "https://user-images.githubusercontent.com/89222842/169706366-9099ad91-ac62-4e66-83a9-0dd2fde57bf5.png",
+        caption: "Custom shop UI",
+      },
+      {
+        type: "IMAGE",
+        url: "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
+        caption: "Animated main menu screen",
+      },
     ],
     links: [
       {
