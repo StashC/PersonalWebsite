@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./ProjectShowcase.css";
 import { ILink, IProjectData } from "../ProjectGalleryHelper";
 import MediaCarousel from "../../../Components/MediaCarousel/MediaCarousel.tsx";
+import Chip from "../../../Components/Chip/Chip.tsx";
 
 interface IShowcaseProps {
   data: IProjectData;
@@ -10,32 +11,27 @@ interface IShowcaseProps {
 const ProjectShowcase = ({ data }: IShowcaseProps) => {
   return (
     <div id="ProjectShowcase" className="ShowcaseContainer">
-      <div className="CarouselContainer">
-        <MediaCarousel mediaList={data.mediaList} />
-      </div>
+      <MediaCarousel mediaList={data.mediaList} />
       <div className="ProjectShowcaseInfoContainer">
         <h1 className="ProjectTitle">{data.title}</h1>
 
         <p>{data.longDescription}</p>
         <div className="ShowcaseFooter">
           <div className="ShowcaseRowContainer">
-            <h4>Technologies & Skills: </h4>
+            <h3 style={{ marginRight: "0.75rem" }}>Technologies and Skills:</h3>
             {data.technologies.map((tech: string) => {
-              return <div className="ShowcaseRowItem">{tech}</div>;
+              return <Chip text={tech} />;
             })}
           </div>
           <div className="ShowcaseRowContainer">
-            <h4>Links:</h4>
+            <h3 style={{ marginRight: "0.75rem" }}>Links:</h3>
             {data.links.map((link: ILink) => {
               return (
-                <a
-                  className="ShowcaseRowItem"
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {link.displayText}
-                </a>
+                <Chip
+                  text={link.displayText}
+                  link={link.url}
+                  icon={link.icon}
+                />
               );
             })}
           </div>

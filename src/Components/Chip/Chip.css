@@ -1,0 +1,25 @@
+.Chip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  margin-right: 10px;
+  border-radius: 20px;
+  min-width: 50px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.Chip.Clickable:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.ChipText {
+  padding: 0.5rem 0.75rem;
+  color: white;
+  white-space: nowrap;
+  margin: 0px;
+  font-size: 0.9rem !important;
+}

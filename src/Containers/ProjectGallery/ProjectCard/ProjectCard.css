@@ -5,7 +5,7 @@
   background-color: var(--dark-background-color);
   overflow: hidden;
   text-align: left;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .ProjectCardSelected {
@@ -15,6 +15,7 @@
   background-color: var(--dark-background-color);
   overflow: hidden;
   text-align: left;
+  padding-bottom: 10px;
   outline: solid 5px var(--secondary-color);
 }
 
@@ -50,7 +51,7 @@
 
 .ProjectInfoContainer {
   height: 45%;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -64,6 +65,7 @@
   display: flex;
   flex-direction: row;
   margin-top: auto;
+  height: fit-content;
 }
 
 .TechnologyTag {

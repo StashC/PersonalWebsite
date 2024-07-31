@@ -3,6 +3,7 @@ import React from "react";
 import "./ProjectCard.css";
 import { IProjectData } from "../ProjectGalleryHelper";
 import { scrollTo } from "../../../helper.ts";
+import Chip from "../../../Components/Chip/Chip.tsx";
 
 interface IProjectCardProps {
   data: IProjectData;
@@ -32,7 +33,7 @@ const ProjectCard = ({
 
         <div className="TechnologiesContainer">
           {data.technologies.map((tech) => {
-            return <h4 className="TechnologyTag">{tech}</h4>;
+            return <Chip text={tech} />;
           })}
         </div>
       </div>

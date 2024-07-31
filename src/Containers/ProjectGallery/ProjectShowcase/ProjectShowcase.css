@@ -1,13 +1,12 @@
 .ShowcaseContainer {
   width: 65%;
-  height: 75vh;
+  height: fit-content;
   min-height: 500px;
   background-color: var(--dark-background-color);
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0.25rem 3rem;
-  overflow-y: auto;
+  padding: 2rem 3rem;
   border-radius: 30px;
 }
 
@@ -26,10 +25,6 @@
     flex-direction: column;
   }
 
-  .CarouselContainer {
-    height: auto !important;
-  }
-
   .ProjectShowcaseInfoContainer {
     height: fit-content !important;
   }
@@ -42,17 +37,6 @@
     margin-top: 20px;
     width: 90%;
   }
-}
-
-.CarouselContainer {
-  padding: 1%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50%;
-  margin-top: 5px;
-  max-width: 750px;
-  max-height: 50vh;
-  min-height: 200px;
 }
 
 .ProjectShowcaseInfoContainer {

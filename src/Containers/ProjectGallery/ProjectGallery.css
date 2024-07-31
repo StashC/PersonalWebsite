@@ -8,11 +8,17 @@
   display: grid;
   width: 100%;
   grid-template-columns: 27vw 27vw 27vw;
-  grid-template-rows: fit-content;
+  grid-template-rows: auto;
   grid-column-gap: 2vw;
   grid-row-gap: 3vh;
   margin-left: 3vw;
   margin-top: 50px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+  .ProjectCardContainer {
+    grid-template-columns: 40vw 40vw;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

@@ -1,5 +1,5 @@
 .PersonalProfileContainer {
-  width: 85%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--dark-background-color);
@@ -111,7 +111,7 @@
 
 @media only screen and (max-width: 767px) {
   .PersonalProfileContainer {
-    width: 100%;
+    width: 95%;
     padding: 0.5rem;
   }
 }

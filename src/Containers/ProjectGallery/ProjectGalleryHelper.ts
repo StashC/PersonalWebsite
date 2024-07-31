@@ -1,8 +1,10 @@
+import { Icon } from "../../Components/Chip/Chip.tsx";
 import { IMedia } from "../../Components/MediaCarousel/MediaCarousel";
 
 export interface ILink {
   displayText: string;
   url: string;
+  icon?: Icon;
 }
 
 export interface IProjectData {
@@ -45,10 +47,12 @@ export const ProjectData: IProjectData[] = [
       {
         displayText: "Chrome Web Store",
         url: "https://chromewebstore.google.com/detail/ubc-workday-side-by-side/gonljejijjjmjccdbjokcmmdfmlincmh?hl=en",
+        icon: Icon.WEBSITE,
       },
       {
         displayText: "GitHub",
         url: "https://github.com/mlool/workday-calendar-extension",
+        icon: Icon.github,
       },
     ],
     title: "UBC Workday Chrome Extension",
@@ -56,7 +60,7 @@ export const ProjectData: IProjectData[] = [
     shortDescription:
       "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users",
     longDescription:
-      "A Chrome Extension created to combat Workday's poor UI/UX, attracting over 5000 users and a very active discord community!  Adds a handly calendar on the side of Workday.  Very useful for registering courses as there is now easy way to see time conflicts in Workday.   Open source project maintained by a small group of developers.  The extension is created using REACT and Typescript and CSS.  Data from RateMyProf, and UBC Grades, two very popular websites for students to judge whether or not to take a course, has been integrated into the extension using APIs, greatly improving the course registration efficiency of students. ",
+      "A Chrome Extension created to combat Workday's poor UI/UX, attracting over 5000 users and a very active discord community!  Adds a handy calendar on the side of Workday.  Very useful for registering courses as there is now an easy way to see time conflicts in Workday.   Open source project maintained by a small group of developers.  The extension is created using REACT and Typescript and CSS.  Data from RateMyProf, and UBC Grades, two very popular websites for students to judge whether or not to take a course, has been integrated into the extension using APIs, greatly improving the course registration efficiency of students. ",
     thumbnail: "https://i.imgur.com/nsyuHtF.png",
   },
   {
@@ -75,12 +79,9 @@ export const ProjectData: IProjectData[] = [
     ],
     links: [
       {
-        displayText: "ItinerAI Website",
-        url: "https://thankful-tree-0ba95a70f.5.azurestaticapps.net/",
-      },
-      {
         displayText: "Hackathon Page",
         url: "https://devpost.com/software/itinerai",
+        icon: Icon.WEBSITE,
       },
     ],
     title: "ItinerAI - Microsoft AI Hackathon (Top 10)",
@@ -88,7 +89,7 @@ export const ProjectData: IProjectData[] = [
     shortDescription:
       "A travel app with integrated custom chatbot to create itineraries.  Made with friends for a Microsoft Hackathon (Top 10 Project)",
     longDescription:
-      "ItinerAI is a web app designed to make trip planning easier.  We created a custom chabot using Azure's Open AI which can query an Azure Cosmos DB using vector searches to find related locations.  Our app provides a seamless experience by allowing you to effortlessly view your itinerary items on an interactive map, complete with directions. With the help of our intelligent chatbot, you can receive personalized location suggestions and easily add new destinations to your itinerary. Additionally, you have the flexibility to manually rearrange and edit locations, ensuring your travel plans are perfectly tailored to your preferences. This integration makes your journey both enjoyable and efficient, giving you full control over your itinerary with ease.  We used REACT with typescript ad node JS as backend. The frontend is deployed using an Azure Static WebApp, which hosts this node JS server as an Azure Function App. The node server talks to our Container App, which hosts a LangChain agent connected to our Azure Cosmos Mongo DB and the AzureOpenAI agent. The node server is able to take all the information back, update the directions using the google maps API, and then serve the data to the front end.",
+      "ItinerAI is a web app designed to make trip planning easier.  We created a custom chabot using Azure's Open AI which can query an Azure Cosmos DB using vector searches to find related locations.  Our app provides a seamless experience by allowing you to effortlessly view your itinerary items on an interactive map, complete with directions. With the help of our intelligent chatbot, you can receive personalized location suggestions and easily add new destinations to your itinerary. Additionally, you have the flexibility to manually rearrange and edit locations, ensuring your travel plans are perfectly tailored to your preferences. This integration makes your journey both enjoyable and efficient, giving you full control over your itinerary with ease.",
     thumbnail: "https://i.imgur.com/xhePixJ.png",
   },
   {
@@ -104,6 +105,7 @@ export const ProjectData: IProjectData[] = [
       {
         displayText: "Github",
         url: "https://github.com/StashC/Space-Survival-Game",
+        icon: Icon.github,
       },
     ],
     title: "Space Survival Game",
