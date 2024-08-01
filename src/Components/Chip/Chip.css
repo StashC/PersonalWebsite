@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: center;
   background-color: var(--secondary-color);
-  margin-right: 10px;
   border-radius: 20px;
   min-width: 50px;
   height: fit-content;
   overflow: hidden;
+  min-width: fit-content;
 }
 
 .Chip.Clickable:hover {

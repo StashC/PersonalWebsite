@@ -56,9 +56,16 @@ export const ProjectData: IProjectData[] = [
       },
     ],
     title: "UBC Workday Chrome Extension",
-    technologies: ["React", "Business Development", "Project Management"],
+    technologies: [
+      "React",
+      "Project Management",
+      "TypeScript",
+      "HTML/CSS",
+      "Bussiness Development",
+      "APIs",
+    ],
     shortDescription:
-      "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users",
+      "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users and a growing community.",
     longDescription:
       "A Chrome Extension created to combat Workday's poor UI/UX, attracting over 5000 users and a very active discord community!  Adds a handy calendar on the side of Workday.  Very useful for registering courses as there is now an easy way to see time conflicts in Workday.   Open source project maintained by a small group of developers.  The extension is created using REACT and Typescript and CSS.  Data from RateMyProf, and UBC Grades, two very popular websites for students to judge whether or not to take a course, has been integrated into the extension using APIs, greatly improving the course registration efficiency of students. ",
     thumbnail: "https://i.imgur.com/nsyuHtF.png",
@@ -85,7 +92,13 @@ export const ProjectData: IProjectData[] = [
       },
     ],
     title: "ItinerAI - Microsoft AI Hackathon (Top 10)",
-    technologies: ["Azure", "Machine Learning", "Python"],
+    technologies: [
+      "Azure Cloud",
+      "Python",
+      "Machine Learning",
+      "React",
+      "Docker",
+    ],
     shortDescription:
       "A travel app with integrated custom chatbot to create itineraries.  Made with friends for a Microsoft Hackathon (Top 10 Project)",
     longDescription:
@@ -121,7 +134,7 @@ export const ProjectData: IProjectData[] = [
     title: "Space Survival Game",
     technologies: ["Unity", "C#", "Game Dev"],
     shortDescription:
-      "A 2D video game made from scratch in Unity using C# for my grade 10 personal project winning first place.",
+      "A 2D video game made from scratch in Unity using C# for my grade 10 personal project winning first place in my high school.",
     longDescription:
       "A game I made in Grade 10 for my high school passion project, recieving first place in my school's project fair. I spent 5 months creating a videogame and documenting the process for my IB Middle Years Program personal project. This game was inspired by Brackey's 2d Game Development series on YouTube.  All of the game assets were created using Adobe PhotoShop",
     thumbnail: "https://i.imgur.com/R9ZLXPV.png",

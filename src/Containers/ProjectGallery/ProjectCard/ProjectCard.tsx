@@ -16,6 +16,13 @@ const ProjectCard = ({
   selected,
   setSelectedProject,
 }: IProjectCardProps) => {
+  let cardTechs: string[] = [];
+  if (data.technologies.length > 3) {
+    cardTechs = data.technologies.slice(0, 3);
+  } else {
+    cardTechs = data.technologies;
+  }
+
   return (
     <div
       className={selected ? "ProjectCardSelected" : "ProjectCard"}
@@ -32,7 +39,7 @@ const ProjectCard = ({
         <p>{data.shortDescription}</p>
 
         <div className="TechnologiesContainer">
-          {data.technologies.map((tech) => {
+          {cardTechs.map((tech) => {
             return <Chip text={tech} />;
           })}
         </div>

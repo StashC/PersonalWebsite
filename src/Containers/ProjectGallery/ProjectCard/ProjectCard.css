@@ -64,6 +64,8 @@
 .TechnologiesContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-top: auto;
   height: fit-content;
 }

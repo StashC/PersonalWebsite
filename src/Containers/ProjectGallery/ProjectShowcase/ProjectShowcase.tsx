@@ -19,21 +19,25 @@ const ProjectShowcase = ({ data }: IShowcaseProps) => {
         <div className="ShowcaseFooter">
           <div className="ShowcaseRowContainer">
             <h3 style={{ marginRight: "0.75rem" }}>Technologies and Skills:</h3>
-            {data.technologies.map((tech: string) => {
-              return <Chip text={tech} />;
-            })}
+            <div className="ExpandleChipContainer">
+              {data.technologies.map((tech: string) => {
+                return <Chip text={tech} />;
+              })}
+            </div>
           </div>
           <div className="ShowcaseRowContainer">
             <h3 style={{ marginRight: "0.75rem" }}>Links:</h3>
-            {data.links.map((link: ILink) => {
-              return (
-                <Chip
-                  text={link.displayText}
-                  link={link.url}
-                  icon={link.icon}
-                />
-              );
-            })}
+            <div className="ExpandleChipContainer">
+              {data.links.map((link: ILink) => {
+                return (
+                  <Chip
+                    text={link.displayText}
+                    link={link.url}
+                    icon={link.icon}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
