@@ -11,8 +11,17 @@
   border-bottom: 2px solid var(--background-color);
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
+}
+
+.TopBarContentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .TopBarLinkContainer {
