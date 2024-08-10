@@ -6,7 +6,8 @@
   background-color: var(--secondary-color);
   border-radius: 20px;
   min-width: 50px;
-  height: fit-content;
+  min-height: fit-content;
+  height: 35px;
   overflow: hidden;
   min-width: fit-content;
 }

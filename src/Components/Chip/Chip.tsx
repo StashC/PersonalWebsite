@@ -34,12 +34,12 @@ const Chip = ({ text, link, icon }: IChipProps) => {
     >
       {icon &&
         (icon == Icon.WEBSITE ? (
-          <IconReact size="40px" fgColor="#FFFFFF" bgColor={secondaryColor} />
+          <IconReact size="35px" fgColor="#FFFFFF" bgColor={secondaryColor} />
         ) : (
           <SocialIcon
             style={{
-              height: "40px",
-              width: "40px",
+              height: "35px",
+              width: "35px",
               marginRight: "-5px",
             }}
             network="github"

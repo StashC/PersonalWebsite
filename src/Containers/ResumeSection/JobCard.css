@@ -1,0 +1,79 @@
+.JobCardContainer {
+  width: 65vw;
+  min-width: 370px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-background-color);
+  border-radius: 16px;
+  padding: 2rem 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.JobCardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.JobCardHeader > h2 {
+  color: var(--primary-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.9rem;
+}
+
+.JobCardHeader > h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.JobCardContainer > h3 {
+  color: var(--secondary-color);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.7rem;
+}
+
+.ResumeSkillsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  row-gap: 0.75rem;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .JobCardContainer {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .JobCardContainer {
+    width: 85vw;
+    padding: 8px;
+  }
+
+  .JobCardHeader > h2 {
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.35rem;
+  }
+
+  .JobCardContainer > h3 {
+    color: var(--secondary-color);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+
+  .JobCardHeader > h4 {
+    font-size: 1rem;
+  }
+}

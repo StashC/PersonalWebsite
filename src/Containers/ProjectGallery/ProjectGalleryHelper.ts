@@ -93,11 +93,13 @@ export const ProjectData: IProjectData[] = [
     ],
     title: "ItinerAI - Microsoft AI Hackathon (Top 10)",
     technologies: [
-      "Azure Cloud",
+      "Azure",
       "Python",
       "Machine Learning",
       "React",
       "Docker",
+      "Github Actions",
+      "CI/CD Workflow",
     ],
     shortDescription:
       "A travel app with integrated custom chatbot to create itineraries.  Made with friends for a Microsoft Hackathon (Top 10 Project)",

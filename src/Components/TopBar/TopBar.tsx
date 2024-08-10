@@ -18,7 +18,7 @@ const TopBar = () => {
             Home
           </a>
           <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
-            About
+            Resume
           </a>
           <a className="TopBarLink" onClick={() => scrollTo("ProjectGallery")}>
             Projects

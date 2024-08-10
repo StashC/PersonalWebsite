@@ -9,6 +9,7 @@ function IconReact({ size, bgColor, fgColor }) {
       fill={fgColor}
       height={size}
       width={size}
+      style={{ marginRight: "-5px" }}
     >
       <circle cx="12" cy="12" r="12" fill={bgColor} />
       <path
