@@ -47,9 +47,17 @@
   margin-top: 10px;
 }
 
+.JobCardContainer > ul {
+  list-style-type: "-  ";
+}
+
+.JobCardContainer > ul > li {
+  margin-bottom: 10px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
   .JobCardContainer {
-    width: 80vw;
+    width: 70vw;
   }
 }
 

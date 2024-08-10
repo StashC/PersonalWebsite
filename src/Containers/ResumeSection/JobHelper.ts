@@ -29,10 +29,10 @@ export const JobData: IJob[] = [
     description: [
       "Spearheaded the development of a plethora of fullstack features for the company's geotechnical data management platform, used daily by hundreds of engineers, enhancing their daily operational efficiency and decision-making abilities",
       "Independently developed a plot to display NOAA National Water Model data using <strong>ChartJS</strong> allowing engineers to easily visualize time-series data integrated with hazard-site specific information",
-      "Expanded the 'Admin Tool' UI to allow direct database modifications through Entity Framework, saving hundreds of hours of development time, reducing lead-times, and streamlining multiple processes",
+      "Expanded the 'Admin Tool' UI to allow direct database modifications through <strong>Entity Framework</strong>, saving hundreds of hours of development time, reducing lead-times, and streamlining multiple processes",
       "Undertook a large refactoring of the internal token system greatly improving the reliability of the application and code quality",
       "Consistently met deadlines for high-priority tickets including urgent requests for clients.",
-      "Led a team of developers as the Scrum Master facilitating the Agile process and inspiring collaboration.",
+      "Led a team of developers as the <strong>Scrum Master</strong> facilitating the Agile process and inspiring collaboration.",
     ],
   },
   {

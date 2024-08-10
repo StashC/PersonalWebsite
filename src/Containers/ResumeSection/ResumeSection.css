@@ -17,4 +17,60 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .JobDecorationContainer {
+    display: none !important;
+  }
+}
+
+.JobContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.JobCircleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.JobCircleContainer > h4 {
+  margin: 0px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.JobCircle {
+  height: 25px;
+  width: 25px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.JobDecorationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  justify-content: baseline;
+}
+
+.JobDecorationContainer .Top {
+  margin-bottom: -12px;
+}
+
+.JobDecorationContainer .Bottom {
+  margin-top: -12px;
+}
+
+.JobVerticalLine {
+  background-color: var(--secondary-color);
+  height: calc(100% - 60px);
+  width: 11px;
+  display: inline-block;
+  margin-left: 97px;
 }
