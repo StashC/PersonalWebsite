@@ -17,10 +17,13 @@ const TopBar = () => {
           <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
             Home
           </a>
-          <a className="TopBarLink" onClick={() => scrollTo("PersonalProfile")}>
-            Resume
+          <a className="TopBarLink" onClick={() => scrollTo("ResumeSection")}>
+            Experience
           </a>
-          <a className="TopBarLink" onClick={() => scrollTo("ProjectGallery")}>
+          <a
+            className="TopBarLink"
+            onClick={() => scrollTo("ProjectGalleryTitle")}
+          >
             Projects
           </a>
           <a
