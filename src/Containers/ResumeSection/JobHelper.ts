@@ -10,7 +10,7 @@ export interface IJob {
 export const JobData: IJob[] = [
   {
     company: "Cambio Earth Systems (BGC Engineering)",
-    jobTitle: "Fullstack Developer",
+    jobTitle: "Web Developer Co-op",
     startDate: "May 2023",
     endDate: "Sept 2024",
     skills: [
@@ -27,7 +27,7 @@ export const JobData: IJob[] = [
       "Agile Development",
     ],
     description: [
-      "Spearheaded the development of a plethora of fullstack features for the company's geotechnical data management platform, used daily by hundreds of engineers, enhancing their daily operational efficiency and decision-making abilities",
+      "Spearheaded the development of a plethora of <strong>fullstack</strong> features for the company's geotechnical data management platform, used daily by hundreds of engineers, enhancing their daily operational efficiency and decision-making abilities",
       "Independently developed a plot to display NOAA National Water Model data using <strong>ChartJS</strong> allowing engineers to easily visualize time-series data integrated with hazard-site specific information",
       "Expanded the 'Admin Tool' UI to allow direct database modifications through <strong>Entity Framework</strong>, saving hundreds of hours of development time, reducing lead-times, and streamlining multiple processes",
       "Undertook a large refactoring of the internal token system greatly improving the reliability of the application and code quality",
