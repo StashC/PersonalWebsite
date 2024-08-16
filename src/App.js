@@ -13,7 +13,14 @@ function App() {
       <ResumeSection />
       <ProjectGallery />
       <ContactCard />
-      <div>Made from scratch with React and TypeScript</div>
+      <a
+        style={{ color: "white" }}
+        target="_blank"
+        href="https://youtu.be/-Bp7MYJVBXU"
+        referrerPolicy="noopener,noreferer"
+      >
+        Made from scratch with React and TypeScript
+      </a>
     </div>
   );
 }
