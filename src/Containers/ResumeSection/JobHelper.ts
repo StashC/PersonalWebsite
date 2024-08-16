@@ -28,11 +28,11 @@ export const JobData: IJob[] = [
     ],
     description: [
       "Spearheaded the development of a plethora of <strong>fullstack</strong> features for the company's geotechnical data management platform, used daily by hundreds of engineers, enhancing their daily operational efficiency and decision-making abilities",
-      "Independently developed a plot to display NOAA National Water Model data using <strong>ChartJS</strong> allowing engineers to easily visualize time-series data integrated with hazard-site specific information",
-      "Expanded the 'Admin Tool' UI to allow direct database modifications through <strong>Entity Framework</strong>, saving hundreds of hours of development time, reducing lead-times, and streamlining multiple processes",
-      "Undertook a large refactoring of the internal token system greatly improving the reliability of the application and code quality",
-      "Consistently met deadlines for high-priority tickets including urgent requests for clients.",
-      "Led a team of developers as the <strong>Scrum Master</strong> facilitating the Agile process and inspiring collaboration.",
+      "Independently developed a plot to display <strong>NOAA National Water Model</strong> data using <strong>ChartJS</strong> allowing engineers to easily visualize time-series data integrated with hazard-site specific information",
+      "Expanded the 'Admin Tool' UI to allow direct database modifications through <strong>Entity Framework</strong>, saving hundreds of hours of development time, reducing lead-times, and streamlining multiple processes to meet stakeholder needs",
+      "Led a large-scale refactor, creating an intuitive interface that replaced manual code-based feature configuration, saving hundreds of development hours. Collaborated with stakeholders to define and integrate functional and technical requirements",
+      "Undertook a major refactor of the internal token system, significantly enhancing application reliability by enabling continued functionality during external service outages, eliminating weekly downtime, and improving code quality and maintainability",
+      "Led a team of developers as <strong>Scrum Master</strong>, collaborating with product owners, engineers, and stakeholders to define requirements, ensuring all tickets were aligned with client expectations and delivered to specification",
     ],
   },
   {
@@ -50,10 +50,12 @@ export const JobData: IJob[] = [
       "Test Pipeline Stabilization",
     ],
     description: [
-      "Independently developed a test automation framework written in python using <strong>PyTest</strong> and <strong>Selenium</strong> which runs nightly on an <strong>Azure Pipeline</strong> to verify and monitor system critical API endpoints and UI workflows",
-      "Created and executed test plans using both automated and manual testing methods to verify backend cloud systems consisting of <strong>Azure Function Apps</strong>, <Strong>Service Buses</strong>, and <strong>SQL jobs/databases</strong>",
+      "Independently developed a test automation framework written in python using <strong>PyTest</strong> and <strong>Selenium</strong> which runs nightly on an <strong>Azure Pipeline</strong> to monitor system-critical apis and microservices reducing lead time by automating failure notification emails to the QA team",
+      "Created and executed test plans using both automated and manual testing methods to verify backend cloud systems consisting of <strong>Azure Function Apps</strong>, <Strong>Service Buses</strong>, and <strong>SQL jobs/databases</strong> ensuring reliable system performance and correctness",
       "Refactored and updated existing <strong>python automations</strong> to respond to functional changes and to improve code quality and stability",
       "<strong>Co-ordinated 3 production releases</strong> of Cambio's flagship software, keeping track of testing progress and assuring all release deadlines were completed",
+      "Implemented <strong>multi-threading</strong> for API tests, accelerating test execution by 400% and significantly reducing overall runtime.",
+      "Built, refactored, and updated python automation tests to respond to functional changes and to improve code maintainability, expanding coverage to 80% of existing microservices, saving hundreds of hours of QA testing capacity.",
     ],
   },
   {

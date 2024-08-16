@@ -100,6 +100,7 @@ export const ProjectData: IProjectData[] = [
       "Docker",
       "Github Actions",
       "CI/CD Workflow",
+      "DevOps",
     ],
     shortDescription:
       "A travel app with integrated custom chatbot to create itineraries.  Made with friends for a Microsoft Hackathon (Top 10 Project)",
@@ -109,6 +110,64 @@ export const ProjectData: IProjectData[] = [
   },
   {
     id: 3,
+    mediaList: [
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/ISZUIzO.png",
+        caption: "UBC Student Hub Homepage",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/Bo89jbc.png",
+        caption:
+          "A Social Page for Students to Promote Projects or Ask Questions",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/i6Myn65.png",
+        caption: "Profile View of a Student Logged In to the Current Account",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/K9WhnWj.png",
+        caption: "Profile View of a Different Student",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/5SkvsuY.png",
+        caption: "Login Page",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/0agkBFE.png",
+        caption: "Research Page for Course Information (Made by Jaskirat Gill)",
+      },
+    ],
+    links: [
+      {
+        displayText: "UBC Student Hub",
+        url: "https://ubcstudenthub.ca",
+        icon: Icon.WEBSITE,
+      },
+    ],
+    title: "UBC Student Hub",
+    technologies: [
+      "React",
+      "Project Management",
+      "Google Firebase",
+      "Dynamo DB",
+      "Bussiness Development",
+      "Material UI",
+      "Software Design",
+    ],
+    shortDescription:
+      "A one-stop shop for UBC students featuring course planning and social experiences.",
+    longDescription:
+      "A followup project to the UBC Workday Chrome Extension, intended to be a place where students can go for more in depth information and features.  Currently we support a calendar view of courses, with schedules being synced from the extension, directions from Google Maps between courses, and a user / social system.  I am responsible for the user authentication and social system, designing and implementing both.  I created a system where users can post questions and interact with other users.  Users can comment and even like other people's posts, fostering a collaborative environment between students.  Users are also able to create accounts using their email and password, which was implemented using Google Firebase's authentication API.",
+    thumbnail: "https://i.imgur.com/qn0ZiWZ.png?2",
+  },
+  {
+    id: 4,
     mediaList: [
       {
         type: "IMAGE",

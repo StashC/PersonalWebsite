@@ -6,18 +6,20 @@
 
 .ProjectCardContainer {
   display: grid;
-  width: 100%;
-  grid-template-columns: 27vw 27vw 27vw;
+  width: fit-content;
+  grid-template-columns: 35vw 35vw;
   grid-template-rows: auto;
-  grid-column-gap: 2vw;
+  grid-column-gap: 3.5vw;
   grid-row-gap: 3vh;
-  margin-left: 3vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1500px) {
   .ProjectCardContainer {
     grid-template-columns: 40vw 40vw;
+    margin-left: 4vw;
   }
 }
 
@@ -28,8 +30,6 @@
     width: 95vw;
     max-width: 600px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .ProjectGallery {

@@ -54,7 +54,7 @@
 
 .ProjectThumbnailContainer {
   width: 100%;
-  height: 50%;
+  height: 55%;
   overflow: hidden;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .ProjectInfoContainer {
-  height: 45%;
+  height: 42%;
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
