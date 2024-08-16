@@ -2,12 +2,19 @@
   width: 65%;
   height: fit-content;
   min-height: 500px;
-  background-color: var(--dark-background-color);
+  /* background-color: var(--dark-background-color); */
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
   padding: 2rem 3rem;
   border-radius: 30px;
+  background: rgb(35, 36, 40);
+  background: linear-gradient(
+    144deg,
+    var(--background-color) 0%,
+    var(--dark-background-color) 100%
+  );
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
 @media only screen and (max-width: 1024px) {

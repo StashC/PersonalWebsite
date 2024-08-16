@@ -4,11 +4,19 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
-  background-color: var(--dark-background-color);
+  /* background-color: var(--dark-background-color);
+   */
+  background: rgb(35, 36, 40);
+  background: linear-gradient(
+    135deg,
+    var(--background-color) -30%,
+    var(--dark-background-color) 100%
+  );
   border-radius: 16px;
   padding: 2rem 2rem;
   text-align: left;
   margin-bottom: 2rem;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.4);
 }
 
 .JobCardHeader {

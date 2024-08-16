@@ -15,6 +15,7 @@
 .Chip.Clickable:hover {
   background-color: var(--secondary-color);
   cursor: pointer;
+  box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.4);
 }
 
 .ChipText {
@@ -23,4 +24,5 @@
   white-space: nowrap;
   margin: 0px;
   font-size: 0.9rem !important;
+  font-weight: 500;
 }
