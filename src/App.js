@@ -1,26 +1,19 @@
 import "./App.css";
-import ContactCard from "./Components/ContactCard/ContactCard.tsx";
+import MainPage from "./Pages/MainPage.tsx";
+import BlogPage from "./Pages/Blog/BlogPage.tsx";
 import TopBar from "./Components/TopBar/TopBar.tsx";
-import PersonalProfile from "./Containers/PersonalProfile/PersonalProfile.tsx";
-import ProjectGallery from "./Containers/ProjectGallery/ProjectGallery.tsx";
-import ResumeSection from "./Containers/ResumeSection/ResumeSection.tsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <TopBar />
-      <PersonalProfile id="PersonalProfile" />
-      <ResumeSection />
-      <ProjectGallery />
-      <ContactCard />
-      <a
-        style={{ color: "white" }}
-        target="_blank"
-        href="https://youtu.be/-Bp7MYJVBXU"
-        referrerPolicy="noopener,noreferer"
-      >
-        Made from scratch with React and TypeScript
-      </a>
+      <Router>
+        <TopBar />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

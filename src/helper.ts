@@ -7,6 +7,9 @@ export const textColor = "#ffffff";
 // Taken from stack overflow:
 // https://stackoverflow.com/questions/18071046/smooth-scroll-to-specific-div-on-click\
 export const scrollTo = (classId: string) => {
+  if (classId.charAt(0) === "#") {
+    classId = classId.slice(1);
+  }
   const target = document.getElementById(classId);
   if (target) {
     target.scrollIntoView({ behavior: "smooth" });
