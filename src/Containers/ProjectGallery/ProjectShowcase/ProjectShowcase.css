@@ -14,7 +14,7 @@
     var(--background-color) 0%,
     var(--dark-background-color) 100%
   );
-  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 1024px) {
