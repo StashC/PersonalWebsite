@@ -24,6 +24,11 @@ export const ProjectData: IProjectData[] = [
     mediaList: [
       {
         type: "VIDEO",
+        url: "https://www.youtube.com/embed/WDbJ2VZBBPE?si=HopuoTYAl4i2yxu7",
+        caption: "Version 1.6 Release Notes Video",
+      },
+      {
+        type: "VIDEO",
         url: "https://youtube.com/embed/OhG_MD-7fWA",
         caption: "YouTube video for the Workday Chrome Extension",
       },
