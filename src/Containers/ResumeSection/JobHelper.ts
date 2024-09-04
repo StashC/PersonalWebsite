@@ -67,6 +67,7 @@ export const JobData: IJob[] = [
     description: [
       "Assisted with training and leading new staff members.",
       "Executed dishes to order with attention to detail and consistency.",
+      "Worked weekends part-time during school and full-time during breaks",
     ],
   },
 ];

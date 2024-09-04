@@ -68,7 +68,7 @@ export const ProjectData: IProjectData[] = [
       "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users and a growing community.",
     longDescription:
       "A Chrome Extension created to combat Workday's poor UI/UX, attracting over 5000 users and a very active discord community!  Adds a handy calendar on the side of Workday.  Very useful for registering courses as there is now an easy way to see time conflicts in Workday.   Open source project maintained by a small group of developers.  The extension is created using REACT and Typescript and CSS.  Data from RateMyProf, and UBC Grades, two very popular websites for students to judge whether or not to take a course, has been integrated into the extension using APIs, greatly improving the course registration efficiency of students. ",
-    thumbnail: "https://i.imgur.com/nsyuHtF.png",
+    thumbnail: "https://i.imgur.com/PTkQMxK.png",
   },
   {
     id: 2,
@@ -164,10 +164,46 @@ export const ProjectData: IProjectData[] = [
       "A one-stop shop for UBC students featuring course planning and social experiences.",
     longDescription:
       "A followup project to the UBC Workday Chrome Extension, intended to be a place where students can go for more in depth information and features.  Currently we support a calendar view of courses, with schedules being synced from the extension, directions from Google Maps between courses, and a user / social system.  I am responsible for the user authentication and social system, designing and implementing both.  I created a system where users can post questions and interact with other users.  Users can comment and even like other people's posts, fostering a collaborative environment between students.  Users are also able to create accounts using their email and password, which was implemented using Google Firebase's authentication API.",
-    thumbnail: "https://i.imgur.com/qn0ZiWZ.png?2",
+    thumbnail: "https://i.imgur.com/5kzhdhM.png",
   },
   {
     id: 4,
+    mediaList: [
+      {
+        type: "VIDEO",
+        url: "https://www.youtube.com/embed/CR8y_MwBNoA?si=diskfUWDRKbZovz-",
+        caption: "Gameplay trailer of the boss fight",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/yS9S4JX.png",
+        caption: "Warehouse level (level 1) sprites",
+      },
+    ],
+    links: [
+      {
+        displayText: "Github",
+        url: "https://github.com/StashC/BadBlood",
+        icon: Icon.github,
+      },
+    ],
+    title: "Bad Blood",
+    technologies: [
+      "Unity",
+      "C#",
+      "Game Design",
+      "State Machines",
+      "Project Management",
+      "Adobe Photoshop",
+    ],
+    shortDescription:
+      "A 2D platformer game prototype created by team 9 for the UBC GameDev Club",
+    longDescription:
+      "You play as a vampire who was fired from their job, and decides to take revenge on their former boss. You work your way up through the company, starting off fighting in the warehouse, moving up to the offices, and finally to the executive floor where you meet your former boss. Vampire hunter Geoffery Bezhaust. Prototype Features: 2 different types of enemies, enemy brutes with a charge attack and ranged enemies. Geoffery Bezhaust, the enemy boss, featuring lightning strike attacks, money bag bombs, and a coin gun. Civilians which flee from the player. Blood particle health pickups. Player can enter `Batmode`, a swarm of bats allows him to float around.  The particle effects were created using Unity's particle system, and the AI behaviour was implemented using state machine designs, including the boss, Geoffery Bezhaust.",
+    thumbnail: "https://i.imgur.com/5ZmBiNr.png",
+  },
+  {
+    id: 5,
     mediaList: [
       {
         type: "IMAGE",
