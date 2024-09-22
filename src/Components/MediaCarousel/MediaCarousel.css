@@ -10,9 +10,10 @@
 
 .MediaButton {
   background-color: var(--primary-color);
-  height: 40px;
-  width: 40px;
-  font-size: 24px;
+  height: 40px !important;
+  width: 40px !important;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
 }
 
@@ -23,7 +24,7 @@
 
 .VideoPlayer {
   margin: 5px;
-  width: 100%;
+  width: calc(100% - 90px);
   height: 100%;
   min-height: 200px;
 }
@@ -31,7 +32,7 @@
 .ImageViewer {
   margin: 5px;
   height: 100%;
-  width: 100%;
+  width: calc(100% - 90px);
   min-height: 200px;
 }
 
@@ -44,6 +45,7 @@
 
   .MediaButton {
     width: 30px;
+    height: 30px;
   }
   .MediaContainer {
     height: auto;
@@ -52,11 +54,11 @@
 
   .VideoPlayer {
     height: auto;
-    width: calc(100% - 50px);
+    width: calc(100% - 70px);
   }
 
   .ImageViewer {
     height: auto;
-    width: calc(100% - 50px);
+    width: calc(100% - 70px);
   }
 }

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./MediaCarousel.css";
+import { FaChevronLeft } from "react-icons/fa6";
+import { FaChevronRight } from "react-icons/fa";
 
 export interface IMedia {
   type: "VIDEO" | "IMAGE";
@@ -43,9 +45,9 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
   return (
     <div className="MediaCarousel">
       <div className="MediaContainer">
-        <div className="MediaButton" onClick={() => handleLeftButton()}>
-          {"<"}
-        </div>
+        <button className="MediaButton" onClick={() => handleLeftButton()}>
+          <FaChevronLeft />
+        </button>
         {currentMedia && currentMedia.type === "VIDEO" ? (
           <iframe
             title="video"
@@ -60,9 +62,9 @@ const MediaCarousel = ({ mediaList }: IMediaCarouselProps) => {
             src={currentMedia.url}
           />
         )}
-        <div className="MediaButton" onClick={() => handleRightButton()}>
-          {">"}
-        </div>
+        <button className="MediaButton" onClick={() => handleRightButton()}>
+          <FaChevronRight />
+        </button>
       </div>
       <p>{currentMedia.caption ?? ""}</p>
     </div>
