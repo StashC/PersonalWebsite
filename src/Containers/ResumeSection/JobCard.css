@@ -4,8 +4,6 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
-  /* background-color: var(--dark-background-color);
-   */
   background: rgb(35, 36, 40);
   background: linear-gradient(
     135deg,
@@ -19,31 +17,71 @@
   box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.3);
 }
 
+.CollapseButton {
+  background-color: rgba(0, 0, 0, 0);
+  width: 40px;
+  height: 40px;
+  color: var(--text-color);
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+
 .JobCardHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 10px;
+  width: 100%;
 }
 
-.JobCardHeader > h2 {
+.JobMainInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.JobSecondaryInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.JobSecondaryInfoContainer > h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.JobMainInfoContainer > h2 {
   color: var(--primary-color);
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.9rem;
 }
 
-.JobCardHeader > h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.JobCardContainer > h3 {
-  color: var(--secondary-color);
+.JobMainInfoContainer > h3 {
+  color: var(--text-color);
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+}
+
+.JobCardContent {
+  overflow: hidden;
+}
+
+.JobCardContent.Expanded {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  transition: max-height 0.8s ease;
+}
+
+.JobCardContent.Collapsed {
+  max-height: 0;
+  transition: max-height 0.5s ease;
 }
 
 .ResumeSkillsContainer {
@@ -55,17 +93,20 @@
   margin-top: 10px;
 }
 
-.JobCardContainer > ul {
+.JobCardContent > ul {
   list-style-type: "-  ";
 }
 
-.JobCardContainer > ul > li {
+.JobCardContent > ul > li {
   margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
   .JobCardContainer {
     width: 70vw;
+  }
+  .JobCardContent.Expanded {
+    max-height: 800px;
   }
 }
 
@@ -75,21 +116,25 @@
     padding: 8px;
   }
 
-  .JobCardHeader > h2 {
+  .JobCardContent.Expanded {
+    max-height: 1200px;
+  }
+
+  .JobMainInfoContainer > h2 {
     color: var(--primary-color);
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 1.35rem;
   }
 
-  .JobCardContainer > h3 {
-    color: var(--secondary-color);
+  .JobMainInfoContainer > h3 {
+    color: var(--text-color);
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
-  .JobCardHeader > h4 {
+  .JobSecondaryInfoContainer > h4 {
     font-size: 1rem;
   }
 }

@@ -62,7 +62,7 @@ export const JobData: IJob[] = [
     company: "Cactus Club Cafe",
     jobTitle: "Line & Prep Cook",
     startDate: "Mar 2018",
-    endDate: "Sept 2022",
+    endDate: "Aug 2022",
     skills: ["Time Management", "Teamwork", "Leadership"],
     description: [
       "Assisted with training and leading new staff members.",
