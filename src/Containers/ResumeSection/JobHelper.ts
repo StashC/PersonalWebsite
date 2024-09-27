@@ -9,6 +9,19 @@ export interface IJob {
 
 export const JobData: IJob[] = [
   {
+    company: "University of British Columbia",
+    jobTitle: "Teaching Assistant",
+    startDate: "Sept 2024",
+    endDate: "Present",
+    skills: ["Python", "Machine Learning", "Data Processing", "Communication"],
+    description: [
+      "CPSC 330: Applied Machine Learning.  Taught using Python, Numpy, Pandas, and SKLearn",
+      "Held weekly tutorial sessions to imrpove student understanding of core concepts",
+      "Assistant students in debugging their assignments and troubleshooting environment issues",
+      "Graded assignments in a timely manner",
+    ],
+  },
+  {
     company: "Cambio Earth Systems (BGC Engineering)",
     jobTitle: "Web Developer Co-op",
     startDate: "May 2023",

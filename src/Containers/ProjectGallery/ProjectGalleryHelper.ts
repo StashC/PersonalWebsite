@@ -61,14 +61,7 @@ export const ProjectData: IProjectData[] = [
       },
     ],
     title: "UBC Workday Chrome Extension",
-    technologies: [
-      "React",
-      "Project Management",
-      "TypeScript",
-      "HTML/CSS",
-      "Bussiness Development",
-      "APIs",
-    ],
+    technologies: ["React", "Project Management", "TypeScript", "HTML/CSS", "Bussiness Development", "APIs"],
     shortDescription:
       "A Chrome Extension created to combat Workday's poor UI/UX.  Over 5000 active users and a growing community.",
     longDescription:
@@ -124,8 +117,7 @@ export const ProjectData: IProjectData[] = [
       {
         type: "IMAGE",
         url: "https://i.imgur.com/Bo89jbc.png",
-        caption:
-          "A Social Page for Students to Promote Projects or Ask Questions",
+        caption: "A Social Page for Students to Promote Projects or Ask Questions",
       },
       {
         type: "IMAGE",
@@ -165,8 +157,7 @@ export const ProjectData: IProjectData[] = [
       "Material UI",
       "Software Design",
     ],
-    shortDescription:
-      "A one-stop shop for UBC students featuring course planning and social experiences.",
+    shortDescription: "A one-stop shop for UBC students featuring course planning and social experiences.",
     longDescription:
       "A followup project to the UBC Workday Chrome Extension, intended to be a place where students can go for more in depth information and features.  Currently we support a calendar view of courses, with schedules being synced from the extension, directions from Google Maps between courses, and a user / social system.  I am responsible for the user authentication and social system, designing and implementing both.  I created a system where users can post questions and interact with other users.  Users can comment and even like other people's posts, fostering a collaborative environment between students.  Users are also able to create accounts using their email and password, which was implemented using Google Firebase's authentication API.",
     thumbnail: "https://i.imgur.com/5kzhdhM.png",
@@ -193,16 +184,8 @@ export const ProjectData: IProjectData[] = [
       },
     ],
     title: "Bad Blood",
-    technologies: [
-      "Unity",
-      "C#",
-      "Game Design",
-      "State Machines",
-      "Project Management",
-      "Adobe Photoshop",
-    ],
-    shortDescription:
-      "A 2D platformer game prototype created by team 9 for the UBC GameDev Club",
+    technologies: ["Unity", "C#", "Game Design", "State Machines", "Project Management", "Adobe Photoshop"],
+    shortDescription: "A 2D platformer game prototype created by team 9 for the UBC GameDev Club",
     longDescription:
       "You play as a vampire who was fired from their job, and decides to take revenge on their former boss. You work your way up through the company, starting off fighting in the warehouse, moving up to the offices, and finally to the executive floor where you meet your former boss. Vampire hunter Geoffery Bezhaust. Prototype Features: 2 different types of enemies, enemy brutes with a charge attack and ranged enemies. Geoffery Bezhaust, the enemy boss, featuring lightning strike attacks, money bag bombs, and a coin gun. Civilians which flee from the player. Blood particle health pickups. Player can enter `Batmode`, a swarm of bats allows him to float around.  The particle effects were created using Unity's particle system, and the AI behaviour was implemented using state machine designs, including the boss, Geoffery Bezhaust.",
     thumbnail: "https://i.imgur.com/5ZmBiNr.png",
@@ -210,6 +193,11 @@ export const ProjectData: IProjectData[] = [
   {
     id: 5,
     mediaList: [
+      {
+        type: "VIDEO",
+        url: "https://www.youtube.com/embed/jjA8-Bt7kyI?si=_krGrYhTzApG92vj",
+        caption: "Video Gameplay Demo",
+      },
       {
         type: "IMAGE",
         url: "https://user-images.githubusercontent.com/89222842/169706361-704ac905-502d-4a1d-b550-7f3210375979.png",
