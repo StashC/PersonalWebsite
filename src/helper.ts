@@ -1,7 +1,7 @@
 export const primaryColor = "#47d653";
 export const secondaryColor = "#398242";
-export const backgroundColor = "#2b2d31";
-export const darkBackgroundColor = "#232428";
+export const backgroundColor = "#26292c";
+export const darkBackgroundColor = "#1c1d22";
 export const textColor = "#ffffff";
 
 // Taken from stack overflow:
