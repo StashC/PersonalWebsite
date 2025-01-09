@@ -12,7 +12,7 @@ export const JobData: IJob[] = [
     company: "University of British Columbia",
     jobTitle: "Teaching Assistant",
     startDate: "Sept 2024",
-    endDate: "Present",
+    endDate: "Dec 2024",
     skills: ["Python", "Machine Learning", "Data Processing", "Communication"],
     description: [
       "CPSC 330: Applied Machine Learning.  Taught using Python, Numpy, Pandas, and SKLearn",

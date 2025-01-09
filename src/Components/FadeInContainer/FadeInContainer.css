@@ -1,0 +1,13 @@
+.fade-in-container {
+  opacity: 0;
+  transform: translate(0, 100px);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-in-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-container.is-visible {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}

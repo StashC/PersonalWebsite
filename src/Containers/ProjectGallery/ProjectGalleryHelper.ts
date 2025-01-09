@@ -20,6 +20,39 @@ export interface IProjectData {
 
 export const ProjectData: IProjectData[] = [
   {
+    id: 12,
+    mediaList: [
+      {
+        type: "VIDEO",
+        url: "https://www.youtube.com/embed/vsojg1SqYhc?si=RFfLj4tJkhJEyO4t",
+        caption: "AlgoBytes preview video",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/RSjK2II.png",
+        caption: "Course Roadmap",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/2AiqYCI.png",
+        caption: "Streaks Screen",
+      },
+    ],
+    links: [
+      {
+        displayText: "AlgoBytes Website",
+        url: "https://algobytes.app",
+        icon: Icon.WEBSITE,
+      },
+    ],
+    title: "AlgoBytes",
+    technologies: ["React Native", "SupaBase", "PostgreSQL", "Expo", "Project Management", "TypeScript", "HTML/CSS"],
+    shortDescription: "A Duolingo-inspired mobile app created to teach solving coding problems",
+    longDescription:
+      "A Duolingo-inspired mobile app created to teach solving coding problems.  This app was developed using React Native and SupaBase and works on both Android and iOS.  The goal of this app was to lower the barrier to entry for leetcode, which can be daunting as you might sit in front of a problem for 30 minutes wihtout knowing what to do.  By leveraging learning over time and repition, we aim to help people master the intuition behind solving programming problems.",
+    thumbnail: "https://i.imgur.com/3rceaAm.png",
+  },
+  {
     id: 1,
     mediaList: [
       {
@@ -191,6 +224,39 @@ export const ProjectData: IProjectData[] = [
     thumbnail: "https://i.imgur.com/5ZmBiNr.png",
   },
   {
+    id: 6,
+    mediaList: [
+      {
+        type: "VIDEO",
+        url: "https://www.youtube.com/embed/huOZqGP94JY?si=zqzp8OrW2pSOGVm7",
+        caption: "Youtube Demo",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/ESmpsNF.png",
+        caption: "Picture of DFS Generated Maze",
+      },
+      {
+        type: "IMAGE",
+        url: "https://i.imgur.com/h07saIA.png",
+        caption: "Picture of a User-drawn Maze",
+      },
+    ],
+    links: [
+      {
+        displayText: "GitHub",
+        url: "https://github.com/StashC/PathfindingDemo",
+        icon: Icon.github,
+      },
+    ],
+    title: "Interactive Maze Generator and Solver",
+    technologies: ["Unity", "C#", "Data Structure & Algorithms", "AStar Pathfinding"],
+    shortDescription: "An interactive maze generator and solver simulation created with Unity.",
+    longDescription:
+      "An interactive pathfinding simulation implementing the A* pathfinding algorithm.  The simulation will find the shortest path between two points.  The user can select a start and end point, place barriers, or even have a maze generate for them.  Mazes are generated using a Depth First search algorithm, which I created after researching maze generating algorithms on wikipedia.  I was inspired by Sebastian Lague's youtube demo of Astar, and other pathfinding algorithms, so I decided to challenge myself and create one in Unity. ",
+    thumbnail: "https://i.imgur.com/XaJNe7W.png",
+  },
+  {
     id: 5,
     mediaList: [
       {
@@ -228,39 +294,5 @@ export const ProjectData: IProjectData[] = [
     longDescription:
       "A game I made in Grade 10 for my high school passion project, recieving first place in my school's project fair. I spent 5 months creating a videogame and documenting the process for my IB Middle Years Program personal project. This game was inspired by Brackey's 2d Game Development series on YouTube.  All of the game assets were created using Adobe PhotoShop",
     thumbnail: "https://i.imgur.com/R9ZLXPV.png",
-  },
-  {
-    id: 6,
-    mediaList: [
-      {
-        type: "VIDEO",
-        url: "https://www.youtube.com/embed/huOZqGP94JY?si=zqzp8OrW2pSOGVm7",
-        caption: "Youtube Demo",
-      },
-      {
-        type: "IMAGE",
-        url: "https://i.imgur.com/ESmpsNF.png",
-        caption: "Picture of DFS Generated Maze",
-      },
-      {
-        type: "IMAGE",
-        url: "https://i.imgur.com/h07saIA.png",
-        caption: "Picture of a User-drawn Maze",
-      },
-    ],
-    links: [
-      {
-        displayText: "GitHub",
-        url: "https://github.com/StashC/PathfindingDemo",
-        icon: Icon.github,
-      },
-    ],
-    title: "Interactive Maze Generator and Solver",
-    technologies: ["Unity", "C#", "Data Structure & Algorithms", "AStar Pathfinding",],
-    shortDescription:
-      "An interactive maze generator and solver simulation created with Unity.",
-    longDescription:
-      "An interactive pathfinding simulation implementing the A* pathfinding algorithm.  The simulation will find the shortest path between two points.  The user can select a start and end point, place barriers, or even have a maze generate for them.  Mazes are generated using a Depth First search algorithm, which I created after researching maze generating algorithms on wikipedia.  I was inspired by Sebastian Lague's youtube demo of Astar, and other pathfinding algorithms, so I decided to challenge myself and create one in Unity. ",
-    thumbnail: "https://i.imgur.com/XaJNe7W.png",
   },
 ];
